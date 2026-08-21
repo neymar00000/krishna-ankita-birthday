@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krishna ❤️ Babdya | 22 August</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:Georgia,"Times New Roman",serif;
+  background:#f5eee5;color:#3d2a20;line-height:1.7;overflow-x:hidden;
+}
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;
+  background-image:radial-gradient(#b18b73 0.6px,transparent .6px);
+  background-size:18px 18px;z-index:10;
+}
+nav{
+  position:fixed;top:0;left:0;right:0;height:68px;z-index:20;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 6%;background:rgba(248,242,234,.94);
+  border-bottom:1px solid #ddcdbd;backdrop-filter:blur(8px)
+}
+.logo{font-size:1.25rem;font-weight:bold;letter-spacing:.5px}
+.logo span{color:#a85f48}
+nav a{color:#5b4033;text-decoration:none;margin-left:22px;font-size:.88rem}
+nav a:hover{color:#a85f48}
+section{padding:100px 7%;min-height:100vh}
+.hero{
+  min-height:100vh;padding-top:130px;display:grid;grid-template-columns:1fr 1fr;
+  align-items:center;gap:30px;background:#f7f1e9;
+}
+.heroText{text-align:center;padding:20px}
+.kicker{text-transform:uppercase;letter-spacing:4px;font-size:.75rem;color:#a16c55}
+h1{font-size:clamp(3rem,7vw,6.8rem);font-weight:400;line-height:1.02;margin:15px 0;color:#3d2920}
+.script{font-style:italic}
+.date{
+  display:inline-block;background:#b47a5d;color:#fff;padding:7px 45px;
+  letter-spacing:4px;margin:15px 0;border-radius:2px
+}
+.tagline{font-size:1.05rem;margin:18px auto;max-width:500px}
+.small{font-size:.92rem;color:#765d50}
+.heroPhoto{
+  height:600px;border-radius:4px;overflow:hidden;position:relative;
+  box-shadow:0 20px 45px rgba(74,48,35,.18)
+}
+.heroPhoto:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(35,20,12,.38))}
+.heroPhoto img{width:100%;height:100%;object-fit:cover;object-position:center}
+.sectionTitle{text-align:center;font-size:2.5rem;font-weight:400;margin-bottom:8px}
+.sectionSub{text-align:center;color:#80685b;margin-bottom:35px}
+.gallery{background:#faf6f0}
+.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;max-width:1100px;margin:auto}
+.photoCard{
+  background:#fff;padding:10px 10px 28px;box-shadow:0 12px 28px rgba(74,48,35,.12);
+  transform:rotate(-1deg);transition:.3s
+}
+.photoCard:nth-child(2){transform:rotate(1deg)}
+.photoCard:nth-child(3){transform:rotate(-.5deg)}
+.photoCard:hover{transform:rotate(0) translateY(-6px)}
+.photoCard img{width:100%;height:420px;object-fit:cover;display:block}
+.caption{text-align:center;margin-top:14px;font-size:1rem}
+.letterSection{background:#eee1d2}
+.paper{
+  max-width:900px;margin:auto;background:#fffaf3;padding:55px 65px;
+  box-shadow:0 18px 45px rgba(74,48,35,.13);position:relative;
+}
+.paper:before,.paper:after{content:"♡";position:absolute;color:#b47a5d;font-size:42px}
+.paper:before{left:22px;top:18px}.paper:after{right:22px;bottom:18px}
+.letter p{margin-bottom:17px}
+.letter .sign{color:#a55f47;font-style:italic;font-size:1.15rem;margin-top:25px}
+.question{
+  min-height:70vh;text-align:center;background:#f7f0e8;
+  display:flex;align-items:center;justify-content:center
+}
+.questionBox{max-width:700px;width:100%}
+.question h2{font-size:clamp(2.4rem,6vw,4.5rem);font-weight:400;margin:10px 0}
+.question p{color:#765d50}
+.buttons{display:flex;justify-content:center;align-items:center;gap:20px;min-height:150px;margin-top:10px}
+button{
+  border:1px solid #a66a50;border-radius:30px;padding:13px 35px;
+  font:inherit;font-size:1rem;cursor:pointer;transition:.35s
+}
+.yes{background:#a9654c;color:#fff;min-width:140px}
+.no{background:transparent;color:#68493c;min-width:110px}
+.final{display:none;margin-top:20px;color:#a55f47;font-style:italic}
+footer{padding:35px;text-align:center;background:#e9dacb;color:#654a3d}
+@media(max-width:800px){
+  nav{padding:0 5%}.navlinks{display:none}
+  .hero{grid-template-columns:1fr;padding-top:100px}
+  .heroPhoto{height:420px;order:-1}
+  .photos{grid-template-columns:1fr;max-width:430px}
+  .photoCard img{height:460px}
+  .paper{padding:40px 25px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Krishna <span>♥</span> Babdya</div>
+  <div class="navlinks">
+    <a href="#home">Home</a><a href="#moments">Moments</a>
+    <a href="#letter">Letter</a><a href="#question">Surprise</a>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="heroText">
+    <div class="kicker">A little birthday surprise</div>
+    <h1><span class="script">Happy Birthday</span><br>Babdya <span style="color:#a85f48">♥</span> Krishna</h1>
+    <div class="date">22 AUGUST</div>
+    <p class="tagline">One date. Two birthdays. And one person who makes the date a little more special.</p>
+    <p class="small">This isn't just a birthday page. It's a small piece of my heart, made especially for you.</p>
+  </div>
+  <div class="heroPhoto">
+    <img src="ankita-2.jpg" alt="Ankita">
+  </div>
+</section>
+
+<section class="gallery" id="moments">
+  <h2 class="sectionTitle">Our Precious Moments ♡</h2>
+  <p class="sectionSub">A few little pictures of my favourite Babdya.</p>
+  <div class="photos">
+    <div class="photoCard">
+      <img src="ankita-1.jpg" alt="Ankita photo 1">
+      <div class="caption">That smile I can never get tired of. ♡</div>
+    </div>
+    <div class="photoCard">
+      <img src="ankita-2.jpg" alt="Ankita photo 2">
+      <div class="caption">My beautiful Babdya.</div>
+    </div>
+    <div class="photoCard">
+      <img src="ankita-3.jpg" alt="Ankita photo 3">
+      <div class="caption">One more picture because one was obviously not enough.</div>
+    </div>
+  </div>
+</section>
+
+<section class="letterSection" id="letter">
+  <div class="paper">
+    <h2 class="sectionTitle">A Letter For My Babdya 💌</h2>
+    <div class="letter">
+      <p><strong>Dear Ankita, meri Babdya,</strong></p>
+      <p>
+        Happy Birthday to the person who has quietly become such a special part of my life.
+        I don't think a few lines can ever properly explain what you mean to me, but today
+        I still want to try.
+      </p>
+      <p>
+        The funniest and sweetest thing about us is that we somehow ended up sharing the
+        same birthday, <strong>22 August</strong>. Out of all the days in a year, we got the
+        same one. Maybe it is just a coincidence, but I like thinking that the universe
+        had a tiny plan of its own.
+      </p>
+      <p>
+        You have a way of making ordinary moments feel special. Your smile, your little
+        expressions, the random conversations, even the silly things we do, they all become
+        memories that I want to keep.
+      </p>
+      <p>
+        On your birthday, I just want you to know that I genuinely wish the best for you.
+        I hope this year gives you reasons to smile more, dreams to chase, moments to remember,
+        and people around you who make you feel loved and appreciated.
+      </p>
+      <p>
+        And whenever life gets a little difficult, I hope you remember that there is someone
+        who will always be cheering for you from your corner.
+      </p>
+      <p>
+        So here's to <strong>you, me, and our 22 August</strong>. Two birthdays, one special
+        date, and hopefully a lot more beautiful memories waiting for us.
+      </p>
+      <p class="sign">Happy Birthday, Babdya. ♡<br>— Krishna</p>
+    </div>
+  </div>
+</section>
+
+<section class="question" id="question">
+  <div class="questionBox">
+    <div class="kicker">Babdya, one important question...</div>
+    <h2>Do you love me? ♡</h2>
+    <p>Think carefully. The website is watching. 😌</p>
+    <div class="buttons">
+      <button class="yes" id="yes">Yes ❤️</button>
+      <button class="no" id="no">No 😏</button>
+    </div>
+    <div class="final" id="final">I knew you'd choose wisely. 😂❤️</div>
+  </div>
+</section>
+
+<footer>
+  Made for Babdya by Krishna · 22 August · ♡
+</footer>
+
+<script>
+let scale=1;
+const yes=document.getElementById("yes");
+const no=document.getElementById("no");
+const final=document.getElementById("final");
+
+no.onclick=()=>{
+  scale=Math.min(scale*1.3,4.5);
+  yes.style.transform=`scale(${scale})`;
+  no.style.transform=`scale(${Math.max(.55,1/scale)})`;
+};
+yes.onclick=()=>{
+  final.style.display="block";
+  for(let i=0;i<14;i++){
+    const h=document.createElement("span");
+    h.textContent="♥";
+    h.style.position="fixed";
+    h.style.left=(45+Math.random()*10)+"%";
+    h.style.top="58%";
+    h.style.color="#a9654c";
+    h.style.fontSize=(18+Math.random()*18)+"px";
+    h.style.zIndex=30;
+    document.body.appendChild(h);
+    h.animate([
+      {transform:"translate(0,0)",opacity:1},
+      {transform:`translate(${(Math.random()-.5)*260}px,-${120+Math.random()*280}px)`,opacity:0}
+    ],{duration:1000+Math.random()*500}).onfinish=()=>h.remove();
+  }
+};
+</script>
+</body>
+</html>
